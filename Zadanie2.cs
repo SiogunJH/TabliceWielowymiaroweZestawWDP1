@@ -4,7 +4,7 @@ namespace TabliceWielowymiaroweZestawWDP1
 {
     class Zadanie2
     {
-        static void Main()
+        static void Main2()
         {
             //MACIERZ 1
             int[] arrSize = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
