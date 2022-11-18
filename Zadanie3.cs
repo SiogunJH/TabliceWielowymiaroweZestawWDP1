@@ -4,7 +4,7 @@ namespace TabliceWielowymiaroweZestawWDP1
 {
     class Zadanie3
     {
-        static void Main()
+        static void Main3()
         {
             //Define variables
             string userInput;
@@ -18,6 +18,7 @@ namespace TabliceWielowymiaroweZestawWDP1
                 arrList.Add(Array.ConvertAll(userInput.Split(' '), int.Parse));
             }
 
+            /*
             //Display data
             for (int i = 0; i < arrList.Count; i++)
             {
@@ -27,6 +28,7 @@ namespace TabliceWielowymiaroweZestawWDP1
                 }
                 Console.WriteLine();
             }
+            */
 
             //Count comulns sums
             int rowCount = arrList.Count;
