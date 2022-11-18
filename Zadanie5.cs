@@ -4,7 +4,7 @@ namespace TabliceWielowymiaroweZestawWDP1
 {
     class Zadanie5
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             int[,] sudoku = new int[9, 9];
             for (int i = 0; i < 9; i++)
